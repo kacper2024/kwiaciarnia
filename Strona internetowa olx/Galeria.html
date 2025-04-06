@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kwiaciarnia | Galeria</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+    }
+
+    header {
+      background-color: #ff6f91;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ffb6b9;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #ff6f91;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kwiatowy Zakątek</h1>
+  <p>Galeria naszych kompozycji</p>
+</header>
+
+<nav>
+  <a href="strona-glowna.html">Strona Główna</a>
+  <a href="oferta.html">Oferta</a>
+  <a href="galeria.html">Galeria</a>
+  <a href="kontakt.html">Kontakt</a>
+</nav>
+
+<main>
+  <h2>Nasze kompozycje kwiatowe</h2>
+  <div class="gallery">
+    <img src="1.jpg" alt="Róże">
+    <img src="2.jpg" alt="Tulipany">
+    <img src="3.jpg" alt="Bukiet ślubny">
+    <img src="4.jpg" alt="Kompozycja wiosenna">
+    <img src="5.jpg" alt="Storczyki">
+    <img src="6.jpg" alt="Kwiaty na uroczystości">
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Kwiatowy Zakątek | ul. Kwiatowa 5, Warszawa</p>
+</footer>
+
+</body>
+</html>
+
